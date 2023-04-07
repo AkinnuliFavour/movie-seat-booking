@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" class="select-form">
+      <label for="movie" class="select-form__label">Pick a movie:</label>
+      <select name="" id="movie" class="select-form__options j-form-options">
+        <option value="10">Avengers: Endgame ($10)</option>
+        <option value="12">Joker ($12)</option>
+        <option value="8">Toy Story 4($8)</option>
+        <option value="9">The Lion King($9)</option>
+      </select>
+    </form>
+    <main>
+      <section class="label">
+        <div class="label__not-selected">
+          <div class="unoccupied"></div>
+          <p>N/A</p>
+        </div>
+        <div class="label__selected">
+          <div class="selected-seat"></div>
+          <p>Selected</p>
+        </div>
+        <div class="label__occupied">
+          <div class="occupied-seat"></div>
+          <p>Occupied</p>
+        </div>
+      </section>
+      <section class="theater-screen"></section>
+      <section class="theater-seats">
+        <section class="left-seats">
+          <section class="left-seats__first-column">
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="occupied-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="occupied-seat"></div>
+          </section>
+          <section class="left-seats__second-column">
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+          </section>
+        </section>
+        <section class="middle-seats">
+          <section class="middle-seats__first-column">
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="occupied-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+          </section>
+          <section class="middle-seats__second-column">
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="occupied-seat"></div>
+          </section>
+          <section class="middle-seats__third-column">
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="occupied-seat"></div>
+          </section>
+          <section class="middle-seats__fourth-column">
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+          </section>
+          <section class="middle-seats__last-column">
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="occupied-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+          </section>
+        </section>
+        <section class="right-seats">
+          <section class="right-seats__first-column">
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="occupied-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+          </section>
+          <section class="right-seats__second-column">
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+            <div class="not-selected-seat"></div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <p class="price-statement">
+      You have selected
+      <span class="price-statement__span j-seats-amount">0</span> seats for a
+      price of <span class="price-statement__span j-seats-price">$0</span>
+    </p>
+    <script src="index.js"></script>
+  </body>
+</html>
